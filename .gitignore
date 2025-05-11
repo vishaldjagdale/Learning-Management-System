@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production build
+/build
+/dist
+
+# Database
+dump.rdb
+db.sqlite
+db.sqlite-wal
+db.sqlite-shm
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+/coverage
+
+# Misc
+.cache/
+.temp/
+
+# Ignore uploads if stored locally
+/uploads/
+public/uploads/
+
+# Ignore Cloudinary cache
+.cloudinary/
+
+# Ignore compiled files from TypeScript (if applicable)
+*.tsbuildinfo
