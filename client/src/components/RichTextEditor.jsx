@@ -20,3 +20,4 @@ const RichTextEditor = ({ input, setInput }) => {
 };
 
 export default RichTextEditor;
+// console.log(input?.description);
